@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Elegir color página</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<?php
+			if (isset($estilo))
+			{
+				echo "<link rel=\"stylesheet\" href=\" $estilo".".css\" type=\"text/css\">"; 
+			}
+		?>
+	</head>
+	<body>
+	<!--Ejercicio 1:
+		Crear una página que puede configurarse con distintos estilos CSS. 
+		El usuario es quien decide qué aspecto desea que tenga la página, por medio de un formulario. 
+		Luego la página es capaz de recordar, entre los distintos accesos que realice el usuario, el aspecto que había elegido para mostrar la web.
+	-->
+		<form action="Ejer1_GuardarEstilo.php" method="post">
+			Elija un estilo para su página:
+			<select name="estilo">
+				<option value="verde"/>Verde
+				<option value="rosa"/>Rosa
+				<option value="negro"/>Negro
+			</select>
+			<input type="submit" value="Actualizar estilo"/>
+		</form>
+	</body>
+</html>
+
+
+
