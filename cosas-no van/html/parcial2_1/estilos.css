@@ -1,0 +1,77 @@
+/* CSS Document */
+body{
+padding:0;
+
+position:inherit;
+overflow: hidden;
+text-align:center;
+}
+.menu{
+list-style:none;
+margin:0;
+overflow: hidden;
+width:650px;
+background-color:#999999;
+
+
+}
+li{
+float:left;
+margin-left:10px;
+padding:20px;
+
+
+}
+
+h1{
+margin:0;
+clear::left;
+width:690px;
+background-color:#666666;
+text-align:center;
+
+overflow: hidden;
+}
+
+.cuerpo{
+overflow: hidden;
+margin-top:0;
+padding:0;
+position:static;
+width:690px;
+
+background-color:#000000;
+
+
+}
+
+.lateral{
+overflow: hidden;
+float:left;
+background-color:#FFFFCC;
+width:400px;
+height:80px;
+}
+
+.lateral2{
+overflow: hidden;
+float:left;
+background-color:#CCCCCC;
+width:290px;
+height:80px;
+
+
+}
+.footer{
+overflow: hidden;
+float:left;
+
+background-color:#666666;
+width:690px;
+height:50px;
+
+
+}
+
+.footer p{
+text-align:center;}

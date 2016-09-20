@@ -1,0 +1,82 @@
+/* CSS Document */
+
+body {
+   font: 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
+   margin: 10 0 10 0px;
+   text-align: center;
+   background-color: #dddddd;
+}
+#contenedor{
+   text-align: left;
+   width: 770px;
+   margin: auto;
+}
+#cabecera{
+   background-color:#CC0000;
+   color:#FFFFFF;
+   text-align:center;
+   font-weight: bold;
+   height:200px;
+}
+h1{
+text-align:right;
+padding-right:20px;
+padding-top:150px;
+
+}
+#cuerpo{
+   padding: 10px 0px 0px 0px; 
+}
+#lateral{
+   padding: 10px 0px 10px 0px;
+   width: 25%;
+   height:50%;
+   float:left;
+}
+#lateral ul{
+   margin : 0px 0px 0px 5px;
+   padding: 5px 5px 5px 5px;
+   list-style: none;
+}
+#lateral li{
+background-color:#000000;
+   margin: 2px 2px 2px 2px;
+   padding: 2px 2px 2px 10px;
+   font-weight: bold;
+}
+#lateral li a{
+   color: #ffffff;
+   text-decoration:none;
+}
+#lateral li a:hover{
+   color: #99FFFF;
+}
+#principal{
+   padding-left: 5px;
+   background-image:url(foto2.jpg);
+   color:#CC0000; 
+   width: 630px; 
+}
+#texto{
+   font-family: "Times New Roman", Times, serif;
+   padding: 0px 5px 0px 20px;
+
+}
+.resaltado{
+   font-size:120%;
+   font-weight:bold;
+   color:#0000FF;
+}
+#otrolado{
+	width: 120px;
+	padding: 5px;
+	float: right;	
+}
+#pie{
+   background-color: #CC0000;
+   color:#000000;
+   padding: 10px 10px 10px 10px;
+   text-align:center;
+   clear: both;
+} 
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+
+<link rel='stylesheet' href='estilo.css' id="link"/>
+<script type="text/javascript" src="cssAlter.js"></script>
+<script>
+		function abrir_ventana (pagina) 
+			{	
+				var opciones="toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, width=300, height=500, top=85, left=140";
+				window.open(pagina,"",opciones);
+			}
+			
+
+function cierra(){
+window.close();
+}
+
+</script>
+
+</head>
+
+<body>
+<table width="100%">
+<tbody>
+<tr>
+	<td class='superior' colspan="2">
+		<h1>EXAMEN FINAL</h1>	</td>
+</tr>
+<tr>
+	<td class='lateral'><table border="1" bordercolor="#000000" class='table-lateral'>
+      <tbody>
+        <tr>
+          <td>Curso Actual</td>
+        </tr>
+        <tr>
+          <td><a href="javascript: abrir_ventana('anterior.html')">Curso Anterior</a></td>
+        </tr>
+        <tr>
+          <td>Consultas</td>
+        </tr>
+      </tbody>
+    </table></td>
+
+<td class='cuerpo'>
+<h2>Caracteristicas</h2>
+<p>En esta Asignatura........................................................................<br/>
+El objetivo fundamental..........................<br/>
+etc, etc,.......................................<br/>
+..................<br/>
+....................<br/>
+....<br/>
+...<br/>
+..<br/>
+.</p>
+<div align="center"><img src='Puesta de Sol.jpg'/></div>
+<p class="cerrar"><button onclick="cierra()">cerrar</button></p>
+<p>&nbsp;</p></td>
+</tr>
+<tr>
+	<td class='abajo' colspan="2">
+	<p>Ingenieria en sistema de informacion- Universidad Tecnologica Nacional</p>
+	<a href=# onclick="cambiarArchivoCss('estilo2.css')">otro estilo</a>	
+	</td>
+	
+</tr>
+</tbody>
+</table>
+</body>
+</html>

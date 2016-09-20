@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Turismo internacional</title>
+    	<link rel="stylesheet" type="text/css" href="final_HTML-CSS.css">
+	    <script>
+		function valida(camposFormulario) 
+			{
+	          if (formulario.usuario.value.length == 0)
+			  {
+	            alert('DNI está vacio'); 
+    	        return false
+        	  }    
+	          if (isNaN(parseInt(formulario.usuario.value))) 
+			  {
+    	        alert('El campo debe ser númerio'); 
+	            return false;
+	          }   
+    	      return true
+		    } 
+		function abrir_ventana (pagina) 
+			{	
+				var opciones="toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, width=300, height=600, top=85, left=140";
+				window.open(pagina,"",opciones);
+			}
+	</script>
+	</head> 
+	<body> 
+		<div id="contenedor">  
+			  <div id="cabecera">
+		    	<h1>TURISMO INTERNACIONAL</h1>
+			  </div>  <!-- fin cabecera --> 
+			  <div id="cuerpo">
+				<div id="otrolado"> 
+				    <form name="formulario" style="text-align:center" action="mailto:z@z.com" onsubmit="return valida(this);" >
+					    <p>Usuario Registrado </p>
+					    <p>
+						    <label>DNI:
+							    <input name="usuario" type="text" id="usuario" size="10">
+						    </label>
+					    </p>
+					    <p>
+						    <input type="submit" value="Enviar" on>
+					    </p>
+				    </form>
+			    </div>  <!-- fin otrolado -->
+			    <div id="principal"> 
+       				<div id="lateral"> 
+          				 <ul> 
+			    	         <li><a href="EG_Final_HTML-CSS_Tema-4_X.html#">Home</a></li>
+			        	     <li><a href="javascript: abrir_ventana('EG_Final_HTML-CSS_Tema-4_X_Destinos.html')">Destinos</a></li>
+            				 <li><a href="EG_Final_HTML-CSS_Tema-4_X.html#">Reservas</a></li>
+				             <li><a href="EG_Final_HTML-CSS_Tema-4_X.html#">Contacto</a></li>
+    	        		 </ul> 
+					</div>  <!-- fin lateral --> 
+                  
+		    	   <div id="texto">
+				       <p>Nuestra empresa... etc., etc., etc............. etc., etc., etc............. etc., etc., etc............. etc., 											etc., etc............. etc., etc., etc............. etc., etc., etc............. etc., etc., etc............. etc., etc., etc............. etc., etc., etc............. etc., etc., etc..........
+                       </p>
+				       <p class="resaltado"> Promociones:<br>
+				       ........ texto .................. texto ....................<br>
+				       ............. texto .............. texto ...................<br>
+				       ......... texto ........................ texto .............<br>
+				       ........ texto .................. texto ....................<br>
+				       ............. texto .............. texto ...................<br>
+				       ........ texto ........................ texto .............<br>
+				       ............. texto .............. texto ..................<br>
+				       ....................................... </p>
+				       <p class="resaltado">&nbsp;</p>
+				       <p class="resaltado">&nbsp;</p>
+			       </div>  <!-- fin texto -->
+       
+  			  	</div>  <!-- fin principal --> 
+    
+		  </div>  <!-- fin cuerpo -->
+	  	  <div id="pie"> 
+  			<p>Año 2012 - Rosario - Argentina</p>
+		  </div>  <!-- fin pie -->
+        </div>   <!-- fin contenedor -->
+	 </body>
+ </html>

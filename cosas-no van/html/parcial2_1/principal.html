@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento sin t&iacute;tulo</title>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+<script>
+function valida(camposFormulario) 
+			{
+	          if (formulario.busqueda.value.length == 0)
+			  {
+	            alert('busqueda está vacio'); 
+    	        return false
+        	  }    
+	          if (isNaN(parseInt(formulario.busqueda.value))) 
+			  {
+    	        alert('El campo debe ser númerio'); 
+	            return false;
+	          }   
+    	      return true
+		    } 
+
+function abrir_ventana (pagina) 
+			{	
+				var opciones="toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=yes, width=400, height=300, top=85, left=140";
+				window.open(pagina,"",opciones);
+			}
+	</script>
+	
+</head>
+
+<body>
+
+
+<ul class="menu">	
+	<li>Home</li>
+	<li>Destinos</li>
+	<li>ofertas</li>
+	<li><a href="javascript: abrir_ventana('reserva.html')">Reservas</a></li>
+	<li>Contactos</li>
+</ul>
+
+<h1>Turismo Internacional</h1>
+<div class='cuerpo'>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp; </p>
+  <p>&nbsp;</p>
+</div>
+
+
+
+
+<div class='lateral'>
+  <p>en esta temporada.................</p>
+  <p>Nuevo </p>
+</div>
+<div class='lateral2'>
+ <form name="formulario" action="" onsubmit="return valida(this);" >
+  <input type='text'' name='busqueda'>
+  <input type="submit" value="Buscar" on>
+  </form>
+</div>
+
+<div class='footer'>
+  <p>Rosario, Argentina</p>
+</div>
+</body>
+</html>
